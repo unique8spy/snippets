@@ -1,0 +1,25 @@
+{
+  "name": "examsnippets",
+  "displayName": "basic snippets",
+  "description": "A collection of diferent variables to study the languages and it helps to reduce run time compile for the given code ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aryan12013/testproject"
+  },
+  "icon": "images.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "java",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
